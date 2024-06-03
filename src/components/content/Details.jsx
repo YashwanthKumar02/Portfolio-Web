@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 function Details() {
   return (
-    <div className="relative w-2/4 mx-auto bg-white min-h-screen shadow-black shadow-md p-4">
+    <div className="relative md:w-2/4 w-full mx-auto bg-white min-h-screen shadow-black shadow-md p-4">
       <div className="mt-28">
         <Proficiency />
       </div>

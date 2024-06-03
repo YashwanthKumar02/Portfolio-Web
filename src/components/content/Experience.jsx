@@ -2,7 +2,7 @@ import React from "react";
 
 function Experience({ image, title, duration, role }) {
   return (
-    <div className="w-1/2 ml-8">
+    <div className="md:w-1/2 ml-8 w-full">
       <div className="flex justify-start items-center gap-16 mt-2">
         <img
           alt="Experience"

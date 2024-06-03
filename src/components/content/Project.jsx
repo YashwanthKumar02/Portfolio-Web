@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 
 function Project({title, domain, description}) {
   return (
-    <motion.div className="w-1/2 ml-8 mt-4"
+    <motion.div className="md:w-1/2 w-full ml-8 mt-4"
       initial={{ opacity: 0, x: 100 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.75, type: 'spring', stiffness: 120 }}

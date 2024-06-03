@@ -25,8 +25,8 @@ const Proficiency = () => {
     <>
       <div className="p-2 w-full">
         <div className="w-full">
-        <div className="font-semibold text-2xl font-sans inline-block">I'm proficient in&nbsp;</div>
-        <div className="font-semibold text-2xl inline-block font-sans text-purple-700 animate-scrolling">
+        <div className="font-semibold lg:text-2xl text-lg font-sans inline-block">I'm proficient in&nbsp;</div>
+        <div className="font-semibold lg:text-2xl text-lg inline-block font-sans text-purple-700 animate-scrolling">
           {words[currentWordIndex]}.</div>
         </div>
       </div>
