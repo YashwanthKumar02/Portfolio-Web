@@ -16,7 +16,7 @@ function Experience({ image, title, duration, role }) {
           <div className="text-base font-bold font-sans">
             Research center Imarat
           </div>
-          <div className="text-xs">april 2022 - present, Hyderabad</div>
+          <div className="text-xs">april 2023 - september 2023, Hyderabad</div>
         </div>
       </div>
       <div className="p-2 flex flex-col text-xs">
